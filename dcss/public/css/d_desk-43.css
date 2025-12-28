@@ -1,0 +1,333 @@
+body {
+    background-color: #AAC4F5 !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #8CA9FF !important;
+    border: 1px solid #4A70A9 !important;
+}
+
+.navbar-home img {
+    max-height: 42px !important;
+    border: 1px solid black !important;
+    border-radius: 5px !important;
+}
+
+#navbar-breadcrumbs li.disabled a {
+    color: brown !important;
+}
+
+.search-bar .awesomplete input {
+    padding-left: 48px !important;
+    height: 36px !important;
+    background-color: #FFFDE1 !important;
+}
+
+.search-bar .awesomplete ul {
+    background-color: bisque !important;
+    border: 1px solid #4A70A9 !important;
+    border-radius: 5px !important;
+}
+
+.dropdown-menu {
+    background-color: bisque !important;
+    border: 1px solid #4A70A9 !important;
+}
+
+.navbar .navbar-nav .dropdown-item {
+    padding: 6px 8px !important;
+    background-color: #FFFDE1 !important;
+    border-radius: 5px !important;
+    margin-bottom: 5px !important;
+    border-bottom: 1px solid #4A70A9 !important;
+}
+
+/* WORKSPACE */
+
+.page-head {
+    background-color: skyblue !important;
+    border-bottom: 1px solid #4A70A9 !important
+}
+
+.page-container {
+    background-color: #AAC4F5 !important;
+}
+
+.layout-side-section {
+    background-color: skyblue !important;
+    border: 1px solid #4A70A9;
+}
+
+@media (max-width: 991px) {
+    .layout-side-section .overlay-sidebar {
+        background-color: skyblue !important;
+    }
+}
+
+.desk-sidebar .standard-sidebar-label {
+    width: 108% !important;
+    margin-left: -11px !important;
+    background-color: bisque !important;
+    border-radius: 2px !important;
+    padding: 8px;
+    text-decoration: solid !important;
+}
+
+.standard-sidebar .standard-sidebar-item, .desk-sidebar .standard-sidebar-item, .search-dialog .search-results .search-sidebar .standard-sidebar-item {
+    background-color: #FFFDE1 !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-radius: 2px !important;
+}
+
+.standard-sidebar .standard-sidebar-item > a, .desk-sidebar .standard-sidebar-item > a, .search-dialog .search-results .search-sidebar .standard-sidebar-item > a {
+    color: brown !important;
+}
+
+.layout-main .layout-main-section {
+    background-color: skyblue !important;
+    border: 1px solid #4A70A9 !important;
+    border-radius: 0 !important;
+}
+
+.codex-editor .codex-editor__redactor .ce-block .ce-block__content .ce-header {
+    padding-left: 7px !important;
+    background-color: #FFFDE1 !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-radius: 5px;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+.widget {
+    background-color: #FFFDE1 !important;
+    border-bottom: 1px solid #4A70A9;
+    border-radius: 5px;
+}
+
+.widget .widget-head {
+    background-color: bisque !important;
+    padding: 5px !important;
+    border-bottom: 1px solid  #4A70A9 !important;
+    border-radius: 5px !important;
+}
+
+.widget.links-widget-box .link-item .link-content {
+    padding-left: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 2px !important;
+    border-bottom: 1px solid  #4A70A9 !important;
+    border-radius: 5px !important;
+    color: blue !important;
+}
+
+.widget.quick-list-widget-box .widget-footer .see-all {
+    background-color: bisque !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-radius: 5px !important;
+}
+
+.btn.btn-default, div#driver-popover-item .driver-popover-footer button.btn-default {
+    background-color: bisque !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-right: 1px solid #4A70A9 !important;
+    color: black !important;
+}
+
+/* LISTVIEW */
+
+.page-form {
+    background-color: #8CA9FF !important;
+}
+.list-row-head {
+    background-color: bisque !important;
+    border: 1px solid #4A70A9 !important;
+}
+.form-control {
+    background-color: #FFFDE1 !important;
+}
+
+.list-row, .list-row-head {
+    height: 32px !important;
+}
+
+.list-row:hover:not(.list-row-head), .list-row-head:hover:not(.list-row-head) {
+    background-color: #8CA9FF !important;
+    border-radius: 5px !important;
+}
+
+/* TREEVIEW */
+
+.tree-link {
+    border-bottom: 2px solid white !important;
+    border-radius: 5px !important;
+}
+
+.tree-node.hover-active{
+    background-color: #8CA9FF !important;
+}
+
+
+/* REPORTVIEW */
+
+.datatable {
+    background-color: skyblue !important;
+}
+
+.datatable .dt-header .dt-row-header {
+    background-color: skyblue !important;
+}
+
+.datatable .dt-header .dt-cell--header .dt-cell__content {
+    background-color: bisque !important;
+    border: 1px solid #4A70A9 !important;
+}
+
+.datatable .dt-row-filter .dt-filter.dt-input {
+    background-color: #FFFDE1 !important;
+    border: 1px solid #4A70A9 !important;
+}
+
+.datatable .dt-row-filter .dt-cell__content {
+    background-color: #FFFDE1 !important;
+    border: 1px solid #4A70A9 !important;
+}
+
+.datatable .dt-scrollable {
+    background-color: skyblue !important;
+}
+
+.datatable .dt-scrollable .dt-cell__content {
+    background-color: skyblue !important;
+    border: 1px solid #4A70A9 !important;
+}
+
+/* FORMVIEW */
+
+.form-sidebar .sidebar-image-section .sidebar-image, .form-sidebar .sidebar-image-section .sidebar-standard-image {
+    margin-top: 10px !important;
+}
+
+.form-sidebar .sidebar-menu .form-sidebar-items {
+    background-color: bisque !important;
+    padding-left: 5px !important;
+    padding-top: 5px !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-right: 1px solid #4A70A9 !important;
+    border-radius: 5px !important;
+}
+
+.form-tabs-list {
+    background-color: #8CA9FF !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-radius: 0 !important;
+    padding: 5px !important;
+}
+
+.form-tabs-list .form-tabs {
+    background-color: #8CA9FF !important;
+}
+
+.form-tabs-list .form-tabs .nav-item {
+    background-color: #8CA9FF !important;
+}
+
+.form-tabs-list .form-tabs .nav-item .nav-link{
+    background-color: #8CA9FF !important;
+    padding: 5px !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-radius: 5px !important;
+    color: black !important;
+}
+
+.form-tabs-list .form-tabs .nav-item .nav-link.active {
+    background-color: bisque !important;
+}
+
+.attachment-row .data-pill {
+    background-color: #FFFDE1 !important;
+}
+
+.std-form-layout > .form-layout > .form-page {
+    background-color: skyblue !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.control-label, .grid-heading-row {
+    color: black !important;
+}
+
+.frappe-control .control-label.reqd::after {
+    color: red !important;
+}
+
+.checkbox {
+    background-color: bisque !important;
+    padding-top: 2px !important;
+    padding-left: 5px !important;
+    border-radius: 5px !important;
+}
+
+.form-grid {
+    border: 1px solid #4A70A9 !important;
+    border-radius: 0 !important;
+    color: #000000 !important;
+}
+
+.grid-heading-row {
+    background-color: bisque !important;
+}
+
+.grid-body {
+    background-color: #FFFDE1 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.grid-row {
+    background-color: bisque !important;
+}
+
+.rows .grid-row .data-row, .rows .grid-row .grid-footer-toolbar, .grid-form-heading {
+    background-color: #FFFDE1 !important;
+
+}
+
+.form-in-grid {
+    background-color: skyblue !important;
+}
+
+.grid-footer {
+    padding: 10px !important;
+    background-color: #FFFDE1 !important;
+    border-radius: 5px !important;
+}
+
+.btn.btn-secondary, div#driver-popover-item .driver-popover-footer button.btn-secondary, div#driver-popover-item .driver-popover-footer button.driver-prev-btn {
+    background-color: bisque !important;
+    color: black !important;
+    border-bottom: 1px solid #4A70A9 !important;
+    border-radius: 5px;
+}
+
+
+.form-footer {
+    margin-top: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background-color: skyblue !important;
+    border: 1px solid #4A70A9 !important;
+}
+
+.new-timeline .activity-title, .new-timeline .timeline-actions {
+    background-color: skyblue !important;
+}
+
+.es-icon {
+    fill: black !important;
+}
+
+.form-footer .scroll-to-top {
+    margin-top: 5px !important;
+}

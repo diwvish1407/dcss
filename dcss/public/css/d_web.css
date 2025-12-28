@@ -1,0 +1,55 @@
+body {
+    background-color: #AAC4F5 !important;
+}
+.navbar-light {
+    background: #8CA9FF !important;
+    border: 1px solid #4A70A9 !important;
+}
+.navbar-home img {
+    height: 48px !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.page-card-head img {
+    max-height: 72px !important;
+    border: 1px solid black !important;
+    border-radius: 10% !important;
+}
+.page-card-head h4 {
+    font-family: "Times New Roman" !important;
+    text-transform: uppercase !important;
+}
+
+.page-card {
+    background-color: #8CA9FF !important;
+    border: 1px solid #4A70A9 !important;
+}
+.for-login .page-card .page-card-body .forgot-password-message > *, .for-forgot .page-card .page-card-body .forgot-password-message > *, .for-login-with-email-link .page-card .page-card-body .forgot-password-message > *, .for-signup .page-card .page-card-body .forgot-password-message > *, .for-email-login .page-card .page-card-body .forgot-password-message > * {
+    color: #000000 !important;
+}
+.text-muted {
+    color: black !important;
+    text-transform: uppercase !important;
+}
+.web-footer {
+    background-color: #8CA9FF !important;
+    border-top: 1px solid #4A70A9 !important;
+}
+.footer-logo {
+    height: 4.5rem !important;
+    margin-top: -28px !important;
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+}
+.footer-col-left {
+    color: black !important;
+}
+.footer-col-right {
+    color: black !important;
+}
